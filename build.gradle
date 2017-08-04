@@ -7,7 +7,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath "org.elasticsearch.gradle:build-tools:5.5.0"
+        classpath "org.elasticsearch.gradle:build-tools:5.5.1"
     }
 }
 
@@ -20,7 +20,7 @@ apply plugin: 'java'
 apply plugin: 'elasticsearch.esplugin'
 apply plugin: 'idea'
 
-def elasticsearchVersion = '5.5.0'
+def elasticsearchVersion = '5.5.1'
 def luceneVersion = '6.6.0'
 
 group = 'com.code972.hebmorph'
